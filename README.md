@@ -3,6 +3,10 @@
 ## Overview
 This repository contains code and resources for Medical Named Entity Recognition (NER) using pre-trained BERT and ALBERT models. The project aims to fine-tune these language models on the i2b2/n2c2 dataset, containing annotated clinical notes, and evaluate their performance on medical NER tasks. The repository includes Jupyter Notebook files for data parsing, model fine-tuning, and model evaluation, along with saved model folders.
 
+Finetuned models have been uploaded to Huggingface Repo.
+* BERT: [Huggingface Model](https://huggingface.co/medical-ner-proj/bert-medical-ner-proj)
+* ALBERT: [Huggingface Model](https://huggingface.co/medical-ner-proj/albert-medical-ner-proj)
+
 ## Table of Contents
 1. [Overview](#overview)
 2. [Dataset](#dataset)
@@ -31,10 +35,6 @@ pip install -r requirements.txt
 3. **ALBERT Fine-tuning**: Open and run `albert_finetuning.ipynb`.
 
 After fine-tuning, the models will be saved in their respective folders.
-
-## Pre-trained Models
-* BERT: [Huggingface Model](add-your-huggingface-link-here)
-* ALBERT: [Huggingface Model](add-your-huggingface-link-here)
 
 ## Results
 * BERT: F1-score of 0.8726, Accuracy of 0.9557
