@@ -1,0 +1,6 @@
+# PyTorch
+torch==1.9.0  
+
+# Transformers
+transformers==4.9.2 
+
