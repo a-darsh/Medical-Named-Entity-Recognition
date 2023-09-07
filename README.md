@@ -25,9 +25,9 @@ The dataset used for this project is the i2b2/n2c2 dataset, which consists of an
 4. PyTorch
 
 Install the required packages using:
-\```bash
+```bash
 pip install -r requirements.txt
-\```
+```
 
 ## Usage
 1. **Data Parsing**: Open and run `parsing_n2c2_to_conll.ipynb`.
